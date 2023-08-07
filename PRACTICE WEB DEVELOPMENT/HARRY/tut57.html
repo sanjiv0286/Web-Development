@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial 57 javascript Events and Listening</title>
+    <link rel="stylesheet" href="tut57.css">
+    <!-- <script src="tut57.js"></script> -->
+
+</head>
+
+<body>
+
+    <p>browser events</p>
+    <p>click</p>
+    <p>context menu</p>
+    <p>mouseover/mouseout</p>
+    <p>mousedown/mouseup</p>
+    <p>mousemove</p>
+    <br>
+    <p>submit</p>
+    <p>focus</p>
+    <br>
+    <hr>
+    <p>DomContentLoaded</p>
+    <br>
+    <p>transitionend--></p>
+    <br>
+    <hr>
+    <div class="container">
+        <h1>This is my heading</h1>
+        <p id="para">
+            Lorem ipsum dolor sit, a met consectetur adipisicing elit. Asperiores quaerat aperiam corrupti provident vel. Rem dolorem similique et assumenda quo odio nostrum quae facilis, nisi recusandae neque harum explicabo quia aperiam illo consectetur fugit vel
+            sequi repellat, ipsam aspernatur. Voluptatibus quas in accusantium, illum iste quia sit eveniet pariatur distinctio dolores iusto dicta, repellat maiores rem aspernatur odio perferendis, optio ducimus. Temporibus at sint, fugit perferendis
+            inventore quo fugiat tenetur, doloremque fuga eaque ducimus labore! Fugit nisi nobis corporis sint hic quod, ipsam alias natus quidem, voluptatum cupiditate placeat reiciendis perspiciatis tempora neque soluta porro veniam. Ad eius adipisci
+            praesentium uKRnde, nulla officiis ducimus id voluptates quaerat eum excepturi a quod? Eum, ducimus illum adipisci hic molestias ad ex totam dignissimos, fugiat, facere fugit reiciendis nihil quaerat obcaecati eius ea eveniet at saepe magni
+            maiores quia animi perferendis porro. Libero officiis molestiae cumque dolorem architecto, velit enim aspernatur iure a, odit, voluptas incidunt quidem eius magnam tempora. Laborum soluta aspernatur magni necessitatibus. Molestiae delectus
+            eius sequi aliquam totam nihil magni vitae debitis quasi veritatis facilis sapiente asperiores, iusto cupiditate. Totam non ullam vel accusamus magni voluptas, doloremque quia eligendi delectus eos maiores odio ex illo libero sint distinctio
+            officiis veniam nihil veritatis. A adipisci placeat deleniti porro ratione accusantium voluptatem officiis cum eos ea odio odit laudantium dolorem delectus, nisi mollitia cumque architecto! Voluptatibus, voluptate perspiciatis. Esse quaerat
+        </p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        function toggleHide() {
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if (para.style.display != 'none') {
+                para.style.display = 'none';
+            } else {
+                para.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

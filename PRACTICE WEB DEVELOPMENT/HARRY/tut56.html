@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manipulating DOM</title>
+
+</head>
+
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>More About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+    </div>
+    <div id="nav">
+        sanjiv
+    </div>
+    <script>
+        //(1) 
+        //let main = document.getElementById('main');
+        //console.log(main);
+        //(2)
+        //let nav = document.getElementById('nav');
+        //console.log(nav);
+        //(3) nav.innerHTML
+        //(4) nav.innerHTML ="<li>dynamic element</li>"
+        //(5)
+        //let container = document.getElementsByClassName('container');
+        //console.log(container);
+        //(6)container[0],container[1]
+        //(7)selectors
+        // let sel = document.querySelector('.container');
+        // console.log(sel);
+        //let sel = document.querySelector('#nav');
+        // console.log(sel);
+        //let sel = document.querySelectorAll('#nav');
+        //console.log(sel);
+        //(7) query selector all
+        //let sel = document.querySelectorAll('#nav>li');
+        //console.log(sel);
+        //(8)
+        //sel[0].innerHTML = "inserted";
+        //*********************
+        // aero in console upward aero pichle element ko access karta hai
+        //*************************
+    </script>
+
+</body>
+
+</html>
